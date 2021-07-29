@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background: #f8485e;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  color: #001e6c;
+  font-weight: bold;
+}
+
+.parent {
+  min-height: calc(100vh - 5rem);
+  display: grid;
+  place-items: center;
+}
+
+.child {
+  text-align: center;
+}
+
+.title {
+  background: #512d6d;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 5rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 2rem;
+  border: 2px solid #000;
+}
+
+.btn:hover {
+  background: #000;
+  color: #fff;
+}
